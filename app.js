@@ -14,7 +14,7 @@ function task1() {
 
 function task2() {
     for (i=1; i<101; i++) {
-        if (i % 3 == 0 & i % 5 == 0) {
+        if (i % 3 == 0 && i % 5 == 0) {
             console.log (i + ': FizzBuzz')
         }
         else if (i % 5 == 0) {
@@ -29,7 +29,7 @@ function task2() {
 function task3() {
     var sum = 0;
     for (i=0; i<1001; i++) {
-        if (i % 3 == 0 & i % 5 == 0) {
+        if (i % 3 == 0 && i % 5 == 0) {
             sum += i;  
         }
             console.log ('Sum: ' + sum)
